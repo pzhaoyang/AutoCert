@@ -1,0 +1,20 @@
+# 运行产物
+.env
+.auto_cert.lock
+auto_cert.log
+cron.log
+
+# acme.sh 本体与工作区（运行时会自动 clone）
+acme.sh/
+conf/
+certs/
+
+# 证书产物
+out/
+
+# 临时
+*.tmp
+*.bak
+
+# 提交消息临时文件
+.git-msg/
